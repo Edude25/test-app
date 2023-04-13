@@ -1,0 +1,33 @@
+<div class="monthField columns is-vcentered">
+    <div class="column is-one-third">
+        <p id="p">{{month}}</p>
+    </div>
+    <div class="column is-one-third"></div>
+    <div class="column is-one-third">
+        <button (click)="monthClick == true ? monthClick = false : monthClick = true" class="my-0"
+            id="dButton">+</button>
+    </div>
+
+</div>
+<div *ngIf="monthClick === true">
+    <th-day-field day="1"></th-day-field>
+    <th-day-field day="2"></th-day-field>
+    <th-day-field day="3"></th-day-field>
+    <th-day-field day="4"></th-day-field>
+    <th-day-field day="5"></th-day-field>
+    <th-day-field day="6"></th-day-field>
+    <th-day-field day="7"></th-day-field>
+    <th-day-field day="8"></th-day-field>
+    <th-day-field day="9"></th-day-field>
+    <th-day-field day="10"></th-day-field>
+    <th-day-field day="11"></th-day-field>
+    <th-day-field day="12"></th-day-field>
+    <th-day-field day="13"></th-day-field>
+    <th-day-field day="14"></th-day-field>
+    <th-day-field day="15"></th-day-field>
+    <th-day-field day="16"></th-day-field>
+    <th-day-field day="17"></th-day-field>
+    <th-day-field day="18"></th-day-field>
+    <th-day-field day="19"></th-day-field>
+    <th-day-field day="20"></th-day-field>
+</div>

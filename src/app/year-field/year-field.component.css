@@ -1,0 +1,18 @@
+ .yearField{
+    background-color: #D3D3D3;
+    margin: 0.5rem 1rem;
+}
+
+.p{
+    text-align: left;
+}
+
+#dButton{
+    background-color: #D3D3D3;
+    margin-left: 20rem;
+}
+
+#a{
+    padding: 1.5px;
+    color: black;
+}

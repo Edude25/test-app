@@ -1,0 +1,25 @@
+<div class="yearField columns is-vcentered">
+    <div class="column is-one-third">
+        <p id="p">{{year}}</p>
+    </div>
+    <div class="column is-one-third"></div>
+    <div class="column is-one-third">
+        <button type="button" (click)="yearClick == true ? yearClick = false : yearClick = true" class="my-0"
+            id="dButton">+</button>
+    </div>
+
+</div>
+<div *ngIf="yearClick === true">
+    <th-month-field month=" janeiro"></th-month-field>
+    <th-month-field month="fevereiro"></th-month-field>
+    <th-month-field month="março"></th-month-field>
+    <th-month-field month="abril"></th-month-field>
+    <th-month-field month="maio"></th-month-field>
+    <th-month-field month="junho"></th-month-field>
+    <th-month-field month="julho"></th-month-field>
+    <th-month-field month="agosto"></th-month-field>
+    <th-month-field month="setembro"></th-month-field>
+    <th-month-field month="outubro"></th-month-field>
+    <th-month-field month="novembro"></th-month-field>
+    <th-month-field month="dezembro"></th-month-field>
+</div>
